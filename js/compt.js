@@ -7,29 +7,29 @@ function changecompt() {
     }
     window.nodesSet = new vis.DataSet([
 
-    	{level: 1, id: 'GDSCO0025', label: 'Materiais', title: 'GDSCO0025 MATERIAIS PARA MICRO E NANO TECNOLOGIA', y: -1200},
-	    {level: 1, id: 'GDINF0101', label: 'Lab. de programação', title: 'GDINF0101 LABORATÓRIO DE INTRODUÇÃO A PROGRAMAÇÃO', y: -1100},
-	    {level: 1, id: '1103118', label: 'Cál. Vetorial e G. Analítica', title: '1103118 CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA', y: -1000},
-	    {level: 1, id: '1107201', label: 'Metodologia', title: '1107201 METODOLOGIA DO TRABALHO CIENTÍFICO', y: -900},
-	    {level: 1, id: '1107248', label: 'Introdução à E.C', title: '1107248 INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO', y: -800},
-	    {level: 1, id: '1103177', label: 'Cálculo I', title: '1103177 CÁLCULO DIFERENCIAL E INTEGRAL I', y: -700},
-	    {level: 1, id: 'GDINF0107', label: 'Int. a programação', title: 'GDINF0107 INTRODUÇÃO A PROGRAMAÇÃO PARA ENGENHARIA DE COMPUTAÇÃO', y: -600},
+	    {level: 1, id: '1103118', label: 'Cál. Vetorial e G. Analítica', title: '1103118 CÁLCULO VETORIAL E GEOMETRIA ANALÍTICA', y: -1200},
+	    {level: 1, id: '1103177', label: 'Cálculo I', title: '1103177 CÁLCULO DIFERENCIAL E INTEGRAL I', y: -1100},
+	    {level: 1, id: '1107201', label: 'Metodologia', title: '1107201 METODOLOGIA DO TRABALHO CIENTÍFICO', y: -1000},
+	    {level: 1, id: '1107248', label: 'Introdução à E.C', title: '1107248 INTRODUÇÃO À ENGENHARIA DE COMPUTAÇÃO', y: -900},
+	    {level: 1, id: 'GDINF0107', label: 'Int. a programação', title: 'GDINF0107 INTRODUÇÃO A PROGRAMAÇÃO PARA ENGENHARIA DE COMPUTAÇÃO', y: -800},
+	    {level: 1, id: 'GDINF0101', label: 'Lab. de programação', title: 'GDINF0101 LABORATÓRIO DE INTRODUÇÃO A PROGRAMAÇÃO', y: -700},
+    	{level: 1, id: 'GDSCO0025', label: 'Materiais', title: 'GDSCO0025 MATERIAIS PARA MICRO E NANO TECNOLOGIA', y: -600},
 
-	    {level: 2, id: 'GDSCO0021', label: 'CL1', title: 'GDSCO0021 CIRCUITOS LÓGICOS I', y: -1200},
-	    {level: 2, id: 'GDSCO0023', label: 'Eletricidade I', title: 'GDSCO0023 ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO I', y: -1100},
-	    {level: 2, id: '1101171', label: 'Física I', title: '1101171 FÍSICA APLICADA À COMPUTAÇÃO I', y: -1000},
+	    {level: 2, id: '1101171', label: 'Física I', title: '1101171 FÍSICA APLICADA À COMPUTAÇÃO I', y: -1200},
+	    {level: 2, id: '1103178', label: 'Cálculo II', title: '1103178 CÁLCULO DIFERENCIAL E INTEGRAL II', y: -1100},
+	    {level: 2, id: 'GDINF0108', label: 'LP I', title: 'GDINF0108 LINGUAGEM DE PROGRAMAÇÃO I', y: -1000},
 	    {level: 2, id: 'GDINF0102', label: 'Lab. de LP I', title: 'GDINF0102 LABORATÓRIO DE LINGUAGEM DE PROGRAMAÇÃO I', y: -900},
-	    {level: 2, id: '1103178', label: 'Cálculo II', title: '1103178 CÁLCULO DIFERENCIAL E INTEGRAL II', y: -800},
-	    {level: 2, id: '1103179', label: 'Álgebra', title: '1103179 INTRODUÇÃO A ÁLGEBRA LINEAR', y: -700},
-	    {level: 2, id: 'GDINF0108', label: 'LP I', title: 'GDINF0108 LINGUAGEM DE PROGRAMAÇÃO I', y: -600},
-	    {level: 2, id: 'GDSCO0046', label: 'Física Experimental', title: 'GDSCO0046 FÍSICA EXPERIMENTAL PARA COMPUTAÇÃO', y: -500},
-
-	    {level: 3, id: 'GDSCO0059', label: 'Mecânica', title: 'GDSCO0059 MECÂNICA PARA ENGENHARIA DA COMPUTAÇÃO', y: -1200},
-	    {level: 3, id: 'GDSCO0024', label: 'Eletricidade II', title: 'GDSCO0024 ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO II', y: -1100},
+	    {level: 2, id: 'GDSCO0021', label: 'CL1', title: 'GDSCO0021 CIRCUITOS LÓGICOS I', y: -800},
+	    {level: 2, id: 'GDSCO0023', label: 'Eletricidade I', title: 'GDSCO0023 ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO I', y: -700},
+	    {level: 2, id: 'GDSCO0046', label: 'Física Experimental', title: 'GDSCO0046 FÍSICA EXPERIMENTAL PARA COMPUTAÇÃO', y: -600},
+			
+			{level: 3, id: '1103179', label: 'Álgebra', title: '1103179 INTRODUÇÃO A ÁLGEBRA LINEAR', y: -1200},
+	    {level: 3, id: '1103232', label: 'Cálculo III', title: '1103232 CÁLCULO DIFERENCIAL E INTEGRAL III', y: -1100},
 	    {level: 3, id: '1107206', label: 'Pesquisa aplicada', title: '1107206 PESQUISA APLICADA A COMPUTAÇÃO', y: -1000},
-	    {level: 3, id: '1103232', label: 'Cálculo III', title: '1103232 CÁLCULO DIFERENCIAL E INTEGRAL III', y: -900},
+	    {level: 3, id: '1108136', label: 'Probabilidades I', title: '1108136 CÁLCULO DAS PROBABILIDADES I', y: -900},
 	    {level: 3, id: 'GDSCO0022', label: 'CL2', title: 'GDSCO0022 CIRCUITOS LÓGICOS II', y: -800},
-	    {level: 3, id: '1108136', label: 'Probabilidades I', title: '1108136 CÁLCULO DAS PROBABILIDADES I', y: -700},
+	    {level: 3, id: 'GDSCO0024', label: 'Eletricidade II', title: 'GDSCO0024 ELETRICIDADE E CIRCUITOS PARA COMPUTAÇÃO II', y: -700},
+	    {level: 3, id: 'GDSCO0059', label: 'Mecânica', title: 'GDSCO0059 MECÂNICA PARA ENGENHARIA DA COMPUTAÇÃO', y: -600},
 
 	    {level: 4, id: '1103180', label: 'Séries Eq. Ordinárias', title: '1103180 SÉRIES E EQUAÇÕES DIFERENCIAIS ORDINÁRIAS', y: -1200},
 	    {level: 4, id: '1107148', label: 'LP II', title: '1107148 LINGUAGEM DE PROGRAMAÇÃO II', y: -1100},
@@ -44,12 +44,12 @@ function changecompt() {
 	    {level: 5, id: 'GDSCO0052', label: 'Mecânica dos fluídos', title: 'GDSCO0052 INTRODUÇÃO A MECÂNICA DOS FLUÍDOS', y: -800},
 	    {level: 5, id: 'GDSCO0053', label: 'Microeletrônica', title: 'GDSCO0053 INTRODUÇÃO A MICROELETRÔNICA', y: -700},
 
-	    {level: 6, id: '5101003', label: 'Microcontroladores', title: '5101003 MICROCONTROLADORES', y: -1200},
 	    {level: 6, id: '1107128', label: 'Eng. de Software', title: '1107128 ENGENHARIA DE SOFTWARE', y: -1100},
+	    {level: 6, id: '5101003', label: 'Microcontroladores', title: '5101003 MICROCONTROLADORES', y: -1200},
+	    {level: 6, id: '5102007', label: 'Pesquisa Operacional', title: '5102007 PESQUISA OPERACIONAL', y: -700},
 	    {level: 6, id: 'GDSCO0062', label: 'Redes I', title: 'GDSCO0062	REDES DE COMPUTADORES I', y: -1000},
 	    {level: 6, id: 'GDSCO0064', label: 'Sinais e Sistemas', title: 'GDSCO0064 SINAIS E SISTEMAS DINÂMICOS', y: -900},
 	    {level: 6, id: 'GDSCO0068', label: 'SO I', title: 'GDSCO0068 SISTEMAS OPERACIONAIS I', y: -800},
-	    {level: 6, id: '5102007', label: 'Pesquisa Operacional', title: '5102007 PESQUISA OPERACIONAL', y: -700},
 
 	    {level: 7, id: '5101001', label: 'ADSO', title: '5101001 AVALIAÇÃO E DESEMPENHO DE SISTEMAS OPERACIONAIS', y: -1200},
 	    {level: 7, id: 'GDSCO0032', label: 'Redes sem Fio', title: 'GDSCO0032 REDES SEM FIO', y: -1100},
@@ -60,8 +60,8 @@ function changecompt() {
 
 	    {level: 8, id: '1107191', label: 'IA', title: '1107191 INTRODUÇÃO A INTELIGÊNCIA ARTIFICIAL', y: -1200},
 	    {level: 8, id: 'GDSCO0028', label: 'Robótica', title: 'GDSCO0028 ROBÓTICA', y: -1100},
-	    {level: 8, id: 'GDSCO0054', label: 'Teoria da Informação', title: 'GDSCO0054 INTRODUÇÃO A TEORIA DA INFORMAÇÃO', y: -1000},
 	    {level: 8, id: 'GDSCO0040', label: 'CECI', title: 'GDSCO0040 CONCEPÇÃO ESTRUTURADA DE CIRCUITOS INTEGRADOS', y: -900},	    
+	    {level: 8, id: 'GDSCO0054', label: 'Teoria da Informação', title: 'GDSCO0054 INTRODUÇÃO A TEORIA DA INFORMAÇÃO', y: -1000},
 
 	    {level: 9, id: '1201126', label: 'Economia I', title: '1201126 ECONOMIA I', y: -1200},
 	    {level: 9, id: '1204172', label: 'Adm. E.C', title: '1204172 ADMINISTRAÇÃO PARA ENGENHARIA', y: -1100},
