@@ -84,6 +84,11 @@ function readcookies(){
         document.getElementById("dados").onclick();
         mycall=false
     }
+    else if(curso=="Engenharia de Robôs"){
+        mycall=true
+        document.getElementById("robots").onclick();
+        mycall=false
+    }
     network.stabilize();
 }
 
